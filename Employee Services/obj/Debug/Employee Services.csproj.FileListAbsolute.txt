@@ -1,0 +1,14 @@
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\obj\Debug\Employee Services.csproj.CoreCompileInputs.cache
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\bin\Debug\Employee Services.dll
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\bin\Debug\Employee Services.pdb
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\bin\Debug\DAL.dll
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\bin\Debug\EntityFramework.dll
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\bin\Debug\DAL.pdb
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\bin\Debug\DAL.dll.config
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\bin\Debug\EntityFramework.xml
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\obj\Debug\Employee Services.csproj.AssemblyReference.cache
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\obj\Debug\Employee Services.csproj.CopyComplete
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\obj\Debug\Employee Services.dll
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\obj\Debug\Employee Services.pdb
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\bin\Debug\Buisness Entities.dll
+C:\Users\fasee\source\repos\EmployeeCRUD\Employee Services\bin\Debug\Buisness Entities.pdb

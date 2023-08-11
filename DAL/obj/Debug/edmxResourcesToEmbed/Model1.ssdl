@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CRUDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="Adderess_ID" />
+    </Key>
+    <Property Name="Adderess_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="Emp_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="Employee_Detials">
+    <Key>
+      <PropertyRef Name="Emp_ID" />
+    </Key>
+    <Property Name="Emp_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Emp_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Emp_Gender" Type="nvarchar" MaxLength="10" />
+    <Property Name="Emp_Phone" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Salary">
+    <Key>
+      <PropertyRef Name="Emp_ID" />
+    </Key>
+    <Property Name="Emp_ID" Type="int" Nullable="false" />
+    <Property Name="Salary_Amount" Type="bigint" />
+  </EntityType>
+  <Association Name="FK_Address_Employee_Detials">
+    <End Role="Employee_Detials" Type="Self.Employee_Detials" Multiplicity="0..1" />
+    <End Role="Address" Type="Self.Address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee_Detials">
+        <PropertyRef Name="Emp_ID" />
+      </Principal>
+      <Dependent Role="Address">
+        <PropertyRef Name="Emp_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Salary_Employee_Detials">
+    <End Role="Employee_Detials" Type="Self.Employee_Detials" Multiplicity="1" />
+    <End Role="Salary" Type="Self.Salary" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Employee_Detials">
+        <PropertyRef Name="Emp_ID" />
+      </Principal>
+      <Dependent Role="Salary">
+        <PropertyRef Name="Emp_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CRUDModelStoreContainer">
+    <EntitySet Name="Address" EntityType="Self.Address" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee_Detials" EntityType="Self.Employee_Detials" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Salary" EntityType="Self.Salary" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Address_Employee_Detials" Association="Self.FK_Address_Employee_Detials">
+      <End Role="Employee_Detials" EntitySet="Employee_Detials" />
+      <End Role="Address" EntitySet="Address" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Salary_Employee_Detials" Association="Self.FK_Salary_Employee_Detials">
+      <End Role="Employee_Detials" EntitySet="Employee_Detials" />
+      <End Role="Salary" EntitySet="Salary" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

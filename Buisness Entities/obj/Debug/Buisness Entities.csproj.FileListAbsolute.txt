@@ -1,0 +1,12 @@
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\bin\Debug\Buisness Entities.dll
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\bin\Debug\Buisness Entities.pdb
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\bin\Debug\DAL.dll
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\bin\Debug\EntityFramework.dll
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\bin\Debug\DAL.pdb
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\bin\Debug\DAL.dll.config
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\bin\Debug\EntityFramework.xml
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\obj\Debug\Buisness Entities.csproj.AssemblyReference.cache
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\obj\Debug\Buisness Entities.csproj.CoreCompileInputs.cache
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\obj\Debug\Buisness Entities.csproj.CopyComplete
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\obj\Debug\Buisness Entities.dll
+C:\Users\fasee\source\repos\EmployeeCRUD\Buisness Entities\obj\Debug\Buisness Entities.pdb

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\fasee\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\fasee\\.nuget\\packages"
+    ]
+  }
+}

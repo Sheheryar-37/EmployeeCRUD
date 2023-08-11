@@ -1,0 +1,60 @@
+<p>employee works!</p>
+<table class="table">
+    <thead>
+        <tr bgcolor="#f9f9f9">
+            <th>Emp_ID</th>
+            <th>Emp_Name</th>
+            <th>Emp_Gender</th>
+            <th>Emp_Phone</th>
+            <th>Emp_Salary</th>
+            <th>Emp_Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of EmployeeList" (dblclick)="onRowEditClick(employee.Emp_ID)">
+            <td >
+                {{ employee.Emp_ID }}
+            </td>
+            <td >
+                {{ employee.Emp_Name }}
+            </td>
+            <td >
+                {{ employee.Emp_Gender }}
+            </td>
+            <td>
+                {{ employee.Emp_Phone }}
+            </td>
+            <td>
+                {{ employee.Emp_Salary }}
+            </td>
+            <!-- <td *ngFor="let employeeAdress of employee.Emp_Address">
+                 {{ employeeAdress }}
+             </td> -->
+        </tr>
+    </tbody>
+</table>
+<!--<div>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Employee Name
+                </th>
+                <th>
+                    Employee Gender
+                </th>
+                <th>
+                    Employee Phone
+                </th>
+            </tr>
+        </thead>
+        <tbody-->
+ <!--*ngfor="let dataitem of EmployeeList"--><!-->-->
+<!--<tr>
+    <td>{{}}</td>
+    <td>{{Employee}}</td>
+    <td>{{Employee}}</td>
+</tr>-->
+<!--</tbody>
+    </table>
+</div>-->
